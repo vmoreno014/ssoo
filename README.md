@@ -1,10 +1,10 @@
 # Sistemas Operativos - EHU
 
 ## Para compilar
-`gcc -o programa main.c -lpthread`
+`gcc -o main main.c process.c priority_queue.c process_generator.c scheduler.c -pthread`
 
 ## Para ejecutar
-`./programa`
+`./main`
 
 ## Explicación
 1. Se incluyen los archivos de encabezado necesarios, como `stdio.h`, `stdlib.h` y `pthread.h`. Además, se incluyen los encabezados de "process.h", "priority_queue.h", "scheduler.h" y "process_generator.h". Estos encabezados probablemente contienen las declaraciones de las funciones y estructuras de datos utilizadas en el programa principal.
