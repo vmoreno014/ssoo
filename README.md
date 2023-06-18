@@ -35,4 +35,4 @@ Este código crea dos hilos:
 
 El programa simula el proceso de generación y programación de procesos en un entorno concurrente utilizando hilos POSIX.
 
-*Más información en el archivo:* [Memoria.pdf](ssoo/Memoria.pdf)
+*Más información en el archivo:* [Memoria.pdf](Memoria.pdf)
